@@ -1,0 +1,29 @@
+{
+    "bot": {
+        "prefix": "!",
+        "description": "Evict-inspired Discord Bot with moderation, economy, and utility features",
+        "version": "1.0.0"
+    },
+    "features": {
+        "moderation": true,
+        "economy": true,
+        "levels": true,
+        "giveaways": true,
+        "autoreplies": true,
+        "fun_commands": true
+    },
+    "economy": {
+        "daily_reward_min": 100,
+        "daily_reward_max": 500,
+        "gamble_win_chance": 0.45
+    },
+    "levels": {
+        "xp_per_message_min": 15,
+        "xp_per_message_max": 25,
+        "level_formula": "xp ** (1/4)"
+    },
+    "moderation": {
+        "default_mute_duration": 10,
+        "max_purge_amount": 100
+    }
+}
